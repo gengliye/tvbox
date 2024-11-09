@@ -441,7 +441,14 @@
 "lives": [
 
 
-{"name":"百视通电竞","urls":["http://39.135.55.105:6610/PLTV/88888888/224/3221227033/index.m3u8?servicetype=1"]}
+        {
+            "name": "redirect",
+            "url": "https://raw.githubusercontent.com/gengliye/tvbox/refs/heads/main/dsj66.txt",
+            "type": "0",
+            "pass": true,
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
+        }
 ],
 
 "parses":[
